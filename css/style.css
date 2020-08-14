@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+  
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+   list-style: none;
+   font-size: 25px;
+}
+#navbar ul li a{
+    padding: 2px 2px;
+    margin: 2px 8px;
+    text-decoration: none;
+    color:white;
+    font-family: cursive;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black; 
+    border-radius: 10px;
+}
+#navbar img{
+margin: 2px 2px;
+padding: 2px 2px;
+}
+#navbar::before{
+    content: "";
+     background: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#logo img{
+    height: 68px;
+    margin: 0px 9px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../food-1932466.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 60%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+#home {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    
+}
+#home .btn details summary{
+    z-index: -1;
+}
+#home h1{
+    font-size: 30px;
+}
+#home p{
+    font-size: 12px;
+}
+.btn{
+    cursor: pointer;
+    background-color: rgb(207, 145, 134);
+    font-family: cursive;
+}
+.hprimary-center{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    
+}
+#service-container{
+    margin: 190px 2px;
+    height: 10px;
+    margin-bottom: 275px;
+    
+   
+    
+}
+#service .box{
+    font-family: cursive;
+    text-align: center;
+    align-items: center;
+    border:2px solid black;
+    margin: 2px 2px;
+    border-radius: 10px;
+    background-color: rgb(209, 205, 205);
+    
+}
+
+#service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#service-container h3{
+    color: black;
+    font-size: 45px;
+}
+#service-container .box img{
+    height: 88px ;
+    width: 141px;
+}
+.hsecondary-center{
+    font-size: 24px;
+}
